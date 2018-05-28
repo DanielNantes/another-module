@@ -1,0 +1,24 @@
+{
+  "name": "another-module",
+  "version": "1.0.0",
+  "description": "Another test module",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielNantes/another-module.git"
+  },
+  "author": "Daniel Nantes <danilnantes@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielNantes/another-module/issues"
+  },
+  "homepage": "https://github.com/DanielNantes/another-module#readme",
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}
